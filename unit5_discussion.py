@@ -124,10 +124,10 @@ def main():
 
     print("\n=== LARGE DATASET TEST ===")
 
-    # Create a sorted list of 10 million integers (0 to 9,999,999)
-    large_data = list(range(10_000_000))
+    # Create a sorted list of 10,000 integers (0 to 9,999)
+    large_data = list(range(10_000))
     # Pick a target near the very end to simulate a worst-case scenario
-    large_target = 9_999_998
+    large_target = 9_998
 
     # Measure Linear Search execution time
     start_time = time.perf_counter()
